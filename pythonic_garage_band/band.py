@@ -69,21 +69,20 @@ class Bassist(Musician):
     def play_solo(self):
         return "bom bom buh bom"
 
+
 class Band(Musician):
-    def __init__(self,name,members):
-       
+    def __init__(self, name, members):
+
         self.name = name
         self.members = members
+        Band.instances.append(self.name)
+
     def play_solos(self):
-        solos =[]
+        solos = []
         for member in self.members:
             solos.append(member.play_solo())
         return solos
 
-    
-
-
-
-
+    @classmethod
     def to_list(self):
-        yield self.members
+        return self.instances
