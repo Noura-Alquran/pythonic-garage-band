@@ -1,0 +1,21 @@
+[
+  "tests/test_pythonic_garage_band.py::test_version",
+  "tests/test_band.py::test_guitarist_str",
+  "tests/test_band.py::test_guitarist_repr",
+  "tests/test_band.py::test_drummer_str",
+  "tests/test_band.py::test_drummer_repr",
+  "tests/test_band.py::test_bassist_str",
+  "tests/test_band.py::test_bassist_repr",
+  "tests/test_band.py::test_band_name",
+  "tests/test_band.py::test_guitarist",
+  "tests/test_band.py::test_bassist",
+  "tests/test_band.py::test_drummer",
+  "tests/test_band.py::test_instruments",
+  "tests/test_band.py::test_individual_solos",
+  "tests/test_band.py::test_band_members",
+  "tests/test_band.py::test_play_solos_for_whole_band",
+  "tests/test_band.py::test_to_list",
+  "tests/test_band.py::test_from_file",
+  "tests/test_band.py::test_from_yaml",
+  "tests/test_band.py::test_abstract_musician"
+]

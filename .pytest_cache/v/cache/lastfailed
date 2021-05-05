@@ -1,0 +1,4 @@
+{
+  "tests/test_band.py::test_play_solos_for_whole_band": true,
+  "tests/test_band.py::test_to_list": true
+}
